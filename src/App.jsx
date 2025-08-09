@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import "./components/card.css";
 import { v4 as uuidv4 } from "uuid";
-// import Tittle from "./components/tittle";
 import TextType from "./components/tittleText";
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
     if (todo.length) {
       saveToLocalStorage(todos);
     }
-  }, [todos]);
+  }, [todos,todo.length]);
 
   const saveToLocalStorage = (data) => {
     localStorage.setItem("todos", JSON.stringify(data));
