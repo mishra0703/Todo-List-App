@@ -7,7 +7,6 @@
   --red-text: rgb(255, 0, 0, 1);
 }
 
-
 .custom-scrollbar::-webkit-scrollbar {
   width: 8px;
 }
@@ -29,7 +28,6 @@
   background-color: var(--faded-black);
 }
 
-
 body {
   background-color: var(--bg-color);
 }
@@ -43,26 +41,17 @@ body {
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 
-
 @media only screen and (max-width: 640px) {
-
-  .box{
+  .box {
     width: 90vw;
   }
-
 }
-
 
 @media only screen and (max-width: 798px) {
-
-  .box{
+  .box {
     width: 90vw;
   }
-
 }
-
-
-
 
 .inputGroup {
   font-family: "Segoe UI", sans-serif;
@@ -109,9 +98,10 @@ body {
   border-color: red;
 }
 
-
-
 .inputGroup button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0.4em 1.2em;
   border: 2px solid black;
   border-radius: 15px;
@@ -149,23 +139,15 @@ body {
   width: 100%;
 }
 
-
 @media only screen and (max-width: 640px) {
-
-  .inputGroup button{
+  .inputGroup button {
     padding: 0em 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-
 }
-
 
 .first-cap::first-letter {
   text-transform: uppercase;
 }
-
 
 .ios-checkbox {
   --checkbox-size: 28px;
@@ -217,8 +199,6 @@ body {
   transition: stroke-dashoffset 0.3s ease 0.1s;
 }
 
-
-
 .ios-checkbox input:checked + .checkbox-wrapper .checkbox-bg {
   background: var(--checkbox-color);
   border-color: var(--checkbox-color);
@@ -232,19 +212,13 @@ body {
   stroke-dashoffset: 0;
 }
 
-
-
 .ios-checkbox:hover .checkbox-wrapper {
   transform: scale(1.05);
 }
 
-
-
 .ios-checkbox:active .checkbox-wrapper {
   transform: scale(0.95);
 }
-
-
 
 .ios-checkbox input:focus + .checkbox-wrapper .checkbox-bg {
   box-shadow: 0 0 0 4px var(--checkbox-bg);
@@ -255,8 +229,6 @@ body {
   --checkbox-bg: #fee2e2;
   --checkbox-border: #fca5a5;
 }
-
-
 
 @keyframes bounce {
   0%,
@@ -271,7 +243,6 @@ body {
 .ios-checkbox input:checked + .checkbox-wrapper {
   animation: bounce 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .dg-box {
   width: max-content;
