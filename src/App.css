@@ -154,6 +154,7 @@ body {
 
   .inputGroup button{
     padding: 0em 1em;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
