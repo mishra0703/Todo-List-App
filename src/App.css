@@ -149,6 +149,18 @@ body {
   width: 100%;
 }
 
+
+@media only screen and (max-width: 640px) {
+
+  .inputGroup button{
+    padding: 0em 1em;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+
 .first-cap::first-letter {
   text-transform: uppercase;
 }

@@ -123,7 +123,7 @@ function App() {
               />
               <label htmlFor="name">Add Task</label>
               <button
-                className="text-(--text-color) border-2 border-red-600"
+                className="text-(--text-color) border-2 border-red-600 max-sm:"
                 onClick={handleAdd}
                 disabled={todo.length < 2}
               >
