@@ -84,6 +84,7 @@ body {
   pointer-events: none;
   transition: all 0.3s ease-in-out;
   color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .inputGroup :is(input:focus, input:valid) ~ label {
@@ -92,6 +93,7 @@ body {
   margin-left: 1.3em;
   padding: 0em 0.4em;
   background-color: var(--bg-color);
+  font-weight: 500;
 }
 
 .inputGroup :is(input:focus, input:valid) {
